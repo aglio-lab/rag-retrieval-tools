@@ -1,0 +1,22 @@
+cff-version: 1.2.0
+message: "If you use or reference this list, please cite it as below. For reproducible citations, cite a monthly release or commit permalink."
+title: "The Comprehensive List of RAG and Retrieval Tools"
+abstract: "a curated, source-linked directory of open-source and commercial software for retrieval-augmented generation, semantic search, vector storage, reranking, ingestion, and RAG evaluation. Includes a machine-readable catalog."
+type: dataset
+version: "1.0.0"
+date-released: "2026-07-16"
+repository-code: "https://github.com/aglio-lab/rag-retrieval-tools"
+url: "https://github.com/aglio-lab/rag-retrieval-tools"
+license: CC0-1.0
+keywords:
+  - rag
+  - retrieval-augmented-generation
+  - vector-database
+  - semantic-search
+  - reranking
+  - embeddings
+  - rag-evaluation
+  - generative-ai
+authors:
+  - name: "aglio-lab"
+    website: "https://github.com/aglio-lab"
