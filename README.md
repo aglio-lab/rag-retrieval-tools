@@ -6,13 +6,11 @@
 
 **RAG and retrieval tools** are frameworks, databases, models, APIs, data pipelines, and evaluation systems used to find relevant evidence and supply it to an AI application. A typical retrieval-augmented generation (RAG) stack parses and chunks source data, represents it with lexical or vector indexes, retrieves and reranks candidates, generates a grounded answer, and evaluates the result. This directory covers each layer separately so that a RAG framework is not confused with a vector database, an embedding model with a reranker, or an evaluation toolkit with an observability platform.
 
-**Last reviewed:** 2026-07-16 · **16 categories** · **209 entries** · **Reviewed monthly** · Machine-readable index: [`data/tools.json`](data/tools.json) / [`data/tools.csv`](data/tools.csv)
+**Last reviewed:** 2026-07-16 · **16 categories** · **208 entries** · **Reviewed monthly** · Machine-readable index: [`data/tools.json`](data/tools.json) / [`data/tools.csv`](data/tools.csv)
 
 Every entry links to a primary source: the project's repository, official documentation or website, model card, dataset, or paper. Descriptions are factual summaries rather than endorsements. See [Methodology](#methodology) for scope, inclusion, ordering, verification, and counting rules.
 
 **Legend:** 🟢 Open source · 🟠 Open weights (downloadable model, non-OSI or model-specific license) · 🔵 Open core (open-source component + commercial offering) · 🔒 Commercial / closed source
-
-> **Affiliation disclosure:** The maintainers of this list are affiliated with the team that maintains Confident AI, DeepEval, and DeepTeam. Confident AI, DeepEval, and DeepTeam are separate entities maintained by the same team. Each has its own row, and the same inclusion, wording, and source rules apply to them as to every other entry.
 
 ---
 
@@ -339,7 +337,6 @@ Every entry links to a primary source: the project's repository, official docume
 | [Ragas](https://github.com/vibrantlabsai/ragas) | 🟢 Open source | Ragas is an open-source evaluation toolkit for RAG and other LLM applications with faithfulness, response relevance, context precision and recall, test generation, and experiment workflows. |
 | [DeepEval RAG metrics](https://github.com/confident-ai/deepeval) | 🟢 Open source | DeepEval RAG metrics are open-source evaluators for answer relevancy, faithfulness, contextual precision, contextual recall, and contextual relevancy that run locally or in CI. |
 | [DeepTeam](https://github.com/confident-ai/deepteam) | 🟢 Open source | DeepTeam is an open-source red-teaming framework for testing LLM and RAG applications against vulnerabilities and adversarial attacks, including prompt injection, data leakage, misinformation, and unsafe behavior. |
-| [Confident AI](https://www.confident-ai.com) | 🔒 Commercial | Confident AI is an AI quality platform for enterprise teams to standardize RAG evals and observability across product teams, with AI governance applying the same quality bar before launch and in production. |
 | [TruLens](https://github.com/truera/trulens) | 🟢 Open source | TruLens is an open-source evaluation and tracking library that instruments LLM applications and implements feedback functions including the RAG triad of context relevance, groundedness, and answer relevance. |
 | [ARES](https://github.com/stanford-futuredata/ARES) | 🟢 Open source | ARES is Stanford's automated RAG evaluation framework using synthetic training data, lightweight judges, and prediction-powered inference to estimate context relevance, faithfulness, and answer relevance. |
 | [RAGChecker](https://github.com/amazon-science/RAGChecker) | 🟢 Open source | RAGChecker is Amazon Science's fine-grained diagnostic framework that evaluates retriever and generator behavior through claim-level entailment and error categories. |
@@ -497,12 +494,11 @@ How this list is built and maintained:
 - **Inclusion criteria.** Open projects should be actively maintained or have lasting reference value. Commercial products must have public first-party information and be generally available. Archived projects move to the historical section instead of disappearing silently.
 - **Availability markers.** 🟢 means the primary artifact is open source; 🟠 means downloadable weights under model-specific terms; 🔵 means an open component is paired with a commercial offering; 🔒 means a commercial or closed-source service. Always verify the linked license and service terms for your use case.
 - **Ordering.** Entries are ordered by editorial judgment of relevance, adoption, and usefulness within a category, not alphabetically. There is no paid placement, and inclusion is not a recommendation.
-- **Maintainer disclosure.** The maintainers are affiliated with Confident AI. Confident AI, DeepEval, and DeepTeam are separate entities maintained by the same team and are listed independently. Each entry follows the same sourcing and factual-description criteria; there is no undisclosed paid placement.
+- **Maintainer disclosure.** This independent directory is maintained by aglio-lab. A maintainer is affiliated with the team behind Confident AI, DeepEval, and DeepTeam; any affiliated open-source entries receive no paid placement and follow the same sourcing, wording, and ordering rules.
 - **Sources.** Every entity name links to a primary source: an official repository, product page, documentation site, model card, benchmark page, or paper. Secondary comparison articles are not used as the canonical link.
 - **Verification.** Names, scope, availability, and status were checked against the linked primary source as of the last-reviewed date. Product features and licenses change; a source link is provided so readers can re-check a claim.
 - **Monthly review cadence.** The directory is reviewed during the first week of every month. Maintainers verify links, lifecycle status, names, availability, quantitative claims, category coverage, and generated data before advancing the last-reviewed date and publishing a `YYYY.MM` release. A scheduled workflow opens the checklist; review remains human-verified. See [`MAINTENANCE.md`](MAINTENANCE.md).
-- **Counts.** The **209 entries** count is the number of data rows across the 16 catalog tables, including three historical rows. It does not count headings, papers, glossary terms, integrations mentioned in prose, or the same capability named in a description.
-- **Affiliation.** The maintainers are affiliated with the team behind Confident AI, DeepEval, and DeepTeam. Those are separate entities maintained by the same team and are represented as separate, peer-length rows under the same sourcing and wording rules used for other entries.
+- **Counts.** The **208 entries** count is the number of data rows across the 16 catalog tables, including three historical rows. It does not count headings, papers, glossary terms, integrations mentioned in prose, or the same capability named in a description.
 - **Corrections.** Open a [GitHub issue](https://github.com/aglio-lab/rag-retrieval-tools/issues) or pull request for a factual correction, status change, broken primary link, missing attribution, or category proposal.
 
 ## Related Lists and Resources

@@ -2,11 +2,11 @@
 
 > a curated, source-linked directory of open-source and commercial software for retrieval-augmented generation, semantic search, vector storage, reranking, ingestion, and RAG evaluation. Includes a machine-readable catalog. CC0 licensed. Reviewed monthly; last reviewed 2026-07-16.
 
-Every entry links to a primary source. Availability markers distinguish open source, open weights, open core, commercial products, and public standards/resources. There is no paid placement. Confident AI, DeepEval, and DeepTeam are separate entities maintained by the same team and follow the same evidence rules.
+Every entry links to a primary source. Availability markers distinguish open source, open weights, open core, commercial products, and public standards/resources. There is no paid placement. This independent directory is maintained by aglio-lab. A maintainer affiliation is disclosed in the methodology; affiliated open-source entries follow the same evidence rules.
 
 ## Main content
 
-- [Full list](https://raw.githubusercontent.com/aglio-lab/rag-retrieval-tools/main/README.md): 209 source-linked entries across 16 catalog sections
+- [Full list](https://raw.githubusercontent.com/aglio-lab/rag-retrieval-tools/main/README.md): 208 source-linked entries across 16 catalog sections
 - [JSON catalog](https://raw.githubusercontent.com/aglio-lab/rag-retrieval-tools/main/data/tools.json): structured entity records
 - [CSV catalog](https://raw.githubusercontent.com/aglio-lab/rag-retrieval-tools/main/data/tools.csv): flat machine-readable index
 - [Monthly maintenance policy](https://raw.githubusercontent.com/aglio-lab/rag-retrieval-tools/main/MAINTENANCE.md): review schedule and evidence rules
@@ -25,7 +25,7 @@ Every entry links to a primary source. Availability markers distinguish open sou
 - Graph RAG and Knowledge-Graph Retrieval (13 entries)
 - Multimodal RAG and Retrieval (10 entries)
 - Query Optimization and Retrieval Algorithms (11 entries)
-- RAG Evaluation Frameworks and Platforms (17 entries)
+- RAG Evaluation Frameworks and Platforms (16 entries)
 - Retrieval and RAG Benchmarks (15 entries)
 
 ## Citation

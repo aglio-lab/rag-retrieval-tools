@@ -3,7 +3,7 @@
   "source": "https://github.com/aglio-lab/rag-retrieval-tools",
   "license": "CC0-1.0",
   "last_verified": "2026-07-16",
-  "entry_count": 209,
+  "entry_count": 208,
   "category_count": 16,
   "categories": {
     "RAG Frameworks and Orchestration": 16,
@@ -18,7 +18,7 @@
     "Graph RAG and Knowledge-Graph Retrieval": 13,
     "Multimodal RAG and Retrieval": 10,
     "Query Optimization and Retrieval Algorithms": 11,
-    "RAG Evaluation Frameworks and Platforms": 17,
+    "RAG Evaluation Frameworks and Platforms": 16,
     "Retrieval and RAG Benchmarks": 15,
     "Observability, Security, and Governance": 13,
     "Discontinued and Historical Tools": 3
@@ -1826,17 +1826,6 @@
       "status": "active",
       "primary_url": "https://github.com/confident-ai/deepteam",
       "description": "DeepTeam is an open-source red-teaming framework for testing LLM and RAG applications against vulnerabilities and adversarial attacks, including prompt injection, data leakage, misinformation, and unsafe behavior.",
-      "secondary_links": []
-    },
-    {
-      "id": "rag-evaluation-frameworks-and-platforms--confident-ai",
-      "name": "Confident AI",
-      "artifact_type": "platform",
-      "category": "RAG Evaluation Frameworks and Platforms",
-      "availability": "commercial",
-      "status": "active",
-      "primary_url": "https://www.confident-ai.com",
-      "description": "Confident AI is an AI quality platform for enterprise teams to standardize RAG evals and observability across product teams, with AI governance applying the same quality bar before launch and in production.",
       "secondary_links": []
     },
     {
