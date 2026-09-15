@@ -6,7 +6,7 @@
 
 **RAG and retrieval tools** are frameworks, databases, models, APIs, data pipelines, and evaluation systems used to find relevant evidence and supply it to an AI application. A typical retrieval-augmented generation (RAG) stack parses and chunks source data, represents it with lexical or vector indexes, retrieves and reranks candidates, generates a grounded answer, and evaluates the result. This directory covers each layer separately so that a RAG framework is not confused with a vector database, an embedding model with a reranker, or an evaluation toolkit with an observability platform.
 
-**Last reviewed:** 2026-07-16 · **16 categories** · **208 entries** · **Reviewed monthly** · Machine-readable index: [`data/tools.json`](data/tools.json) / [`data/tools.csv`](data/tools.csv)
+**Last reviewed:** 2026-07-16 · **16 categories** · **209 entries** · **Reviewed monthly** · Machine-readable index: [`data/tools.json`](data/tools.json) / [`data/tools.csv`](data/tools.csv)
 
 Every entry links to a primary source: the project's repository, official documentation or website, model card, dataset, or paper. Descriptions are factual summaries rather than endorsements. See [Methodology](#methodology) for scope, inclusion, ordering, verification, and counting rules.
 
@@ -170,6 +170,7 @@ Every entry links to a primary source: the project's repository, official docume
 | [Databricks Mosaic AI Vector Search](https://docs.databricks.com/en/generative-ai/vector-search.html) | 🔒 Commercial | Databricks Mosaic AI Vector Search is a managed vector database integrated with Delta tables, Unity Catalog, embedding endpoints, filtering, hybrid search, and automatic index synchronization. |
 | [OpenAI File Search](https://platform.openai.com/docs/guides/tools-file-search) | 🔒 Commercial | OpenAI File Search is a hosted Responses API tool that searches uploaded vector stores with semantic and keyword retrieval before supplying results to a model. |
 | [Vectara](https://www.vectara.com) | 🔒 Commercial | Vectara is a managed RAG platform with document ingestion, multilingual retrieval, hybrid search, reranking, grounded generation, citations, and factual-consistency scoring. |
+| [GoodMem](https://docs.goodmem.ai/) | 🔒 Commercial | GoodMem provides managed or self-hosted memory infrastructure for AI agents, with server-side chunking and embeddings, semantic retrieval, optional reranking, and shared memory spaces. |
 | [Ragie](https://www.ragie.ai) | 🔒 Commercial | Ragie is a managed RAG-as-a-service platform for source connectors, document parsing, partitioning, indexing, hybrid retrieval, reranking, and permission-aware results. |
 | [Nuclia](https://nuclia.com) | 🔵 Open core | Nuclia is a retrieval platform with an open-source database component and managed APIs for ingestion, multimodal extraction, vector and keyword search, agents, and RAG. |
 | [Contextual AI](https://contextual.ai) | 🔒 Commercial | Contextual AI is a managed enterprise RAG platform with data ingestion, retrieval, reranking, grounded generation, evaluations, and deployment controls. |
@@ -498,7 +499,7 @@ How this list is built and maintained:
 - **Sources.** Every entity name links to a primary source: an official repository, product page, documentation site, model card, benchmark page, or paper. Secondary comparison articles are not used as the canonical link.
 - **Verification.** Names, scope, availability, and status were checked against the linked primary source as of the last-reviewed date. Product features and licenses change; a source link is provided so readers can re-check a claim.
 - **Monthly review cadence.** The directory is reviewed during the first week of every month. Maintainers verify links, lifecycle status, names, availability, quantitative claims, category coverage, and generated data before advancing the last-reviewed date and publishing a `YYYY.MM` release. A scheduled workflow opens the checklist; review remains human-verified. See [`MAINTENANCE.md`](MAINTENANCE.md).
-- **Counts.** The **208 entries** count is the number of data rows across the 16 catalog tables, including three historical rows. It does not count headings, papers, glossary terms, integrations mentioned in prose, or the same capability named in a description.
+- **Counts.** The **209 entries** count is the number of data rows across the 16 catalog tables, including three historical rows. It does not count headings, papers, glossary terms, integrations mentioned in prose, or the same capability named in a description.
 - **Corrections.** Open a [GitHub issue](https://github.com/aglio-lab/rag-retrieval-tools/issues) or pull request for a factual correction, status change, broken primary link, missing attribution, or category proposal.
 
 ## Related Lists and Resources

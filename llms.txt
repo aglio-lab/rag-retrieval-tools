@@ -6,7 +6,7 @@ Every entry links to a primary source. Availability markers distinguish open sou
 
 ## Main content
 
-- [Full list](https://raw.githubusercontent.com/aglio-lab/rag-retrieval-tools/main/README.md): 208 source-linked entries across 16 catalog sections
+- [Full list](https://raw.githubusercontent.com/aglio-lab/rag-retrieval-tools/main/README.md): 209 source-linked entries across 16 catalog sections
 - [JSON catalog](https://raw.githubusercontent.com/aglio-lab/rag-retrieval-tools/main/data/tools.json): structured entity records
 - [CSV catalog](https://raw.githubusercontent.com/aglio-lab/rag-retrieval-tools/main/data/tools.csv): flat machine-readable index
 - [Monthly maintenance policy](https://raw.githubusercontent.com/aglio-lab/rag-retrieval-tools/main/MAINTENANCE.md): review schedule and evidence rules
