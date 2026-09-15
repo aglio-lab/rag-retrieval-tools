@@ -3,13 +3,13 @@
   "source": "https://github.com/aglio-lab/rag-retrieval-tools",
   "license": "CC0-1.0",
   "last_verified": "2026-07-16",
-  "entry_count": 208,
+  "entry_count": 209,
   "category_count": 16,
   "categories": {
     "RAG Frameworks and Orchestration": 16,
     "Vector Databases and Vector Search Libraries": 24,
     "Lexical and Hybrid Search Engines": 11,
-    "Managed Retrieval APIs and Knowledge Bases": 15,
+    "Managed Retrieval APIs and Knowledge Bases": 16,
     "Embedding Models, APIs, and Libraries": 16,
     "Rerankers and Late-Interaction Retrieval": 12,
     "Document Parsing, OCR, and Chunking": 15,
@@ -682,6 +682,17 @@
       "status": "active",
       "primary_url": "https://www.vectara.com",
       "description": "Vectara is a managed RAG platform with document ingestion, multilingual retrieval, hybrid search, reranking, grounded generation, citations, and factual-consistency scoring.",
+      "secondary_links": []
+    },
+    {
+      "id": "managed-retrieval-apis-and-knowledge-bases--goodmem",
+      "name": "GoodMem",
+      "artifact_type": "tool",
+      "category": "Managed Retrieval APIs and Knowledge Bases",
+      "availability": "commercial",
+      "status": "active",
+      "primary_url": "https://docs.goodmem.ai/",
+      "description": "GoodMem provides managed or self-hosted memory infrastructure for AI agents, with server-side chunking and embeddings, semantic retrieval, optional reranking, and shared memory spaces.",
       "secondary_links": []
     },
     {
