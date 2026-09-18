@@ -6,7 +6,7 @@
 
 **RAG and retrieval tools** are frameworks, databases, models, APIs, data pipelines, and evaluation systems used to find relevant evidence and supply it to an AI application. A typical retrieval-augmented generation (RAG) stack parses and chunks source data, represents it with lexical or vector indexes, retrieves and reranks candidates, generates a grounded answer, and evaluates the result. This directory covers each layer separately so that a RAG framework is not confused with a vector database, an embedding model with a reranker, or an evaluation toolkit with an observability platform.
 
-**Last reviewed:** 2026-07-16 · **16 categories** · **208 entries** · **Reviewed monthly** · Machine-readable index: [`data/tools.json`](data/tools.json) / [`data/tools.csv`](data/tools.csv)
+**Last reviewed:** 2026-07-16 · **16 categories** · **209 entries** · **Reviewed monthly** · Machine-readable index: [`data/tools.json`](data/tools.json) / [`data/tools.csv`](data/tools.csv)
 
 Every entry links to a primary source: the project's repository, official documentation or website, model card, dataset, or paper. Descriptions are factual summaries rather than endorsements. See [Methodology](#methodology) for scope, inclusion, ordering, verification, and counting rules.
 
@@ -257,6 +257,7 @@ Every entry links to a primary source: the project's repository, official docume
 | [Apify](https://apify.com) | 🔵 Open core | Apify is a cloud platform for web scraping and browser automation built around reusable Actors, datasets, schedules, proxies, and open-source crawling SDKs. |
 | [Diffbot](https://www.diffbot.com) | 🔒 Commercial | Diffbot is a commercial web extraction and knowledge-graph service with APIs for articles, products, discussions, crawling, natural-language extraction, and entity search. |
 | [Beautiful Soup](https://www.crummy.com/software/BeautifulSoup/) | 🟢 Open source | Beautiful Soup is a Python library for navigating, searching, and modifying HTML or XML parse trees, commonly used as a low-level extraction component. |
+| [CrawlVolt](https://www.crawlvolt.com/docs/quickstart) | 🔒 Commercial / closed source | CrawlVolt is a hosted web extraction API that returns Markdown, text, metadata, and links from web pages for ingestion into retrieval pipelines. |
 
 ## Ingestion, ETL, and Connectors
 
@@ -498,7 +499,7 @@ How this list is built and maintained:
 - **Sources.** Every entity name links to a primary source: an official repository, product page, documentation site, model card, benchmark page, or paper. Secondary comparison articles are not used as the canonical link.
 - **Verification.** Names, scope, availability, and status were checked against the linked primary source as of the last-reviewed date. Product features and licenses change; a source link is provided so readers can re-check a claim.
 - **Monthly review cadence.** The directory is reviewed during the first week of every month. Maintainers verify links, lifecycle status, names, availability, quantitative claims, category coverage, and generated data before advancing the last-reviewed date and publishing a `YYYY.MM` release. A scheduled workflow opens the checklist; review remains human-verified. See [`MAINTENANCE.md`](MAINTENANCE.md).
-- **Counts.** The **208 entries** count is the number of data rows across the 16 catalog tables, including three historical rows. It does not count headings, papers, glossary terms, integrations mentioned in prose, or the same capability named in a description.
+- **Counts.** The **209 entries** count is the number of data rows across the 16 catalog tables, including three historical rows. It does not count headings, papers, glossary terms, integrations mentioned in prose, or the same capability named in a description.
 - **Corrections.** Open a [GitHub issue](https://github.com/aglio-lab/rag-retrieval-tools/issues) or pull request for a factual correction, status change, broken primary link, missing attribution, or category proposal.
 
 ## Related Lists and Resources
