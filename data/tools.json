@@ -3,7 +3,7 @@
   "source": "https://github.com/aglio-lab/rag-retrieval-tools",
   "license": "CC0-1.0",
   "last_verified": "2026-07-16",
-  "entry_count": 208,
+  "entry_count": 209,
   "category_count": 16,
   "categories": {
     "RAG Frameworks and Orchestration": 16,
@@ -13,7 +13,7 @@
     "Embedding Models, APIs, and Libraries": 16,
     "Rerankers and Late-Interaction Retrieval": 12,
     "Document Parsing, OCR, and Chunking": 15,
-    "Web Crawling and Content Extraction": 10,
+    "Web Crawling and Content Extraction": 11,
     "Ingestion, ETL, and Connectors": 8,
     "Graph RAG and Knowledge-Graph Retrieval": 13,
     "Multimodal RAG and Retrieval": 10,
@@ -1331,6 +1331,17 @@
       "status": "active",
       "primary_url": "https://www.crummy.com/software/BeautifulSoup/",
       "description": "Beautiful Soup is a Python library for navigating, searching, and modifying HTML or XML parse trees, commonly used as a low-level extraction component.",
+      "secondary_links": []
+    },
+    {
+      "id": "web-crawling-and-content-extraction--crawlvolt",
+      "name": "CrawlVolt",
+      "artifact_type": "tool",
+      "category": "Web Crawling and Content Extraction",
+      "availability": "commercial",
+      "status": "active",
+      "primary_url": "https://www.crawlvolt.com/docs/quickstart",
+      "description": "CrawlVolt is a hosted web extraction API that returns Markdown, text, metadata, and links from web pages for ingestion into retrieval pipelines.",
       "secondary_links": []
     },
     {
