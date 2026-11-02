@@ -6,7 +6,7 @@
 
 **RAG and retrieval tools** are frameworks, databases, models, APIs, data pipelines, and evaluation systems used to find relevant evidence and supply it to an AI application. A typical retrieval-augmented generation (RAG) stack parses and chunks source data, represents it with lexical or vector indexes, retrieves and reranks candidates, generates a grounded answer, and evaluates the result. This directory covers each layer separately so that a RAG framework is not confused with a vector database, an embedding model with a reranker, or an evaluation toolkit with an observability platform.
 
-**Last reviewed:** 2026-07-16 · **16 categories** · **208 entries** · **Reviewed monthly** · Machine-readable index: [`data/tools.json`](data/tools.json) / [`data/tools.csv`](data/tools.csv)
+**Last reviewed:** 2026-07-16 · **16 categories** · **209 entries** · **Reviewed monthly** · Machine-readable index: [`data/tools.json`](data/tools.json) / [`data/tools.csv`](data/tools.csv)
 
 Every entry links to a primary source: the project's repository, official documentation or website, model card, dataset, or paper. Descriptions are factual summaries rather than endorsements. See [Methodology](#methodology) for scope, inclusion, ordering, verification, and counting rules.
 
@@ -136,6 +136,7 @@ Every entry links to a primary source: the project's repository, official docume
 | [TiDB Vector Search](https://docs.pingcap.com/tidbcloud/vector-search-overview/) | 🔵 Open core | TiDB Vector Search adds vector columns, distance functions, and HNSW indexes to the distributed SQL database so transactional data and embeddings can be queried together. |
 | [ClickHouse Vector Search](https://clickhouse.com/docs/engines/table-engines/mergetree-family/annindexes) | 🔵 Open core | ClickHouse Vector Search uses vector distance functions and approximate vector-similarity indexes alongside columnar analytics and SQL filtering. |
 | [turbopuffer](https://turbopuffer.com) | 🔒 Commercial | turbopuffer is a managed search engine that stores vector and full-text indexes on object storage and exposes filtering, namespaces, and multi-query APIs. |
+| [Moss](https://docs.moss.dev/docs/integrate/storage-persistence) | 🔒 Commercial | Moss is a retrieval SDK that loads cloud-managed indexes into application memory for local semantic, keyword, and hybrid queries. |
 
 ## Lexical and Hybrid Search Engines
 
@@ -498,7 +499,7 @@ How this list is built and maintained:
 - **Sources.** Every entity name links to a primary source: an official repository, product page, documentation site, model card, benchmark page, or paper. Secondary comparison articles are not used as the canonical link.
 - **Verification.** Names, scope, availability, and status were checked against the linked primary source as of the last-reviewed date. Product features and licenses change; a source link is provided so readers can re-check a claim.
 - **Monthly review cadence.** The directory is reviewed during the first week of every month. Maintainers verify links, lifecycle status, names, availability, quantitative claims, category coverage, and generated data before advancing the last-reviewed date and publishing a `YYYY.MM` release. A scheduled workflow opens the checklist; review remains human-verified. See [`MAINTENANCE.md`](MAINTENANCE.md).
-- **Counts.** The **208 entries** count is the number of data rows across the 16 catalog tables, including three historical rows. It does not count headings, papers, glossary terms, integrations mentioned in prose, or the same capability named in a description.
+- **Counts.** The **209 entries** count is the number of data rows across the 16 catalog tables, including three historical rows. It does not count headings, papers, glossary terms, integrations mentioned in prose, or the same capability named in a description.
 - **Corrections.** Open a [GitHub issue](https://github.com/aglio-lab/rag-retrieval-tools/issues) or pull request for a factual correction, status change, broken primary link, missing attribution, or category proposal.
 
 ## Related Lists and Resources

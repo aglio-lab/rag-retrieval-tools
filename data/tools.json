@@ -3,11 +3,11 @@
   "source": "https://github.com/aglio-lab/rag-retrieval-tools",
   "license": "CC0-1.0",
   "last_verified": "2026-07-16",
-  "entry_count": 208,
+  "entry_count": 209,
   "category_count": 16,
   "categories": {
     "RAG Frameworks and Orchestration": 16,
-    "Vector Databases and Vector Search Libraries": 24,
+    "Vector Databases and Vector Search Libraries": 25,
     "Lexical and Hybrid Search Engines": 11,
     "Managed Retrieval APIs and Knowledge Bases": 15,
     "Embedding Models, APIs, and Libraries": 16,
@@ -462,6 +462,17 @@
       "status": "active",
       "primary_url": "https://turbopuffer.com",
       "description": "turbopuffer is a managed search engine that stores vector and full-text indexes on object storage and exposes filtering, namespaces, and multi-query APIs.",
+      "secondary_links": []
+    },
+    {
+      "id": "vector-databases-and-vector-search-libraries--moss",
+      "name": "Moss",
+      "artifact_type": "framework-or-library",
+      "category": "Vector Databases and Vector Search Libraries",
+      "availability": "commercial",
+      "status": "active",
+      "primary_url": "https://docs.moss.dev/docs/integrate/storage-persistence",
+      "description": "Moss is a retrieval SDK that loads cloud-managed indexes into application memory for local semantic, keyword, and hybrid queries.",
       "secondary_links": []
     },
     {
