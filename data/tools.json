@@ -3,7 +3,7 @@
   "source": "https://github.com/aglio-lab/rag-retrieval-tools",
   "license": "CC0-1.0",
   "last_verified": "2026-07-16",
-  "entry_count": 208,
+  "entry_count": 209,
   "category_count": 16,
   "categories": {
     "RAG Frameworks and Orchestration": 16,
@@ -15,7 +15,7 @@
     "Document Parsing, OCR, and Chunking": 15,
     "Web Crawling and Content Extraction": 10,
     "Ingestion, ETL, and Connectors": 8,
-    "Graph RAG and Knowledge-Graph Retrieval": 13,
+    "Graph RAG and Knowledge-Graph Retrieval": 14,
     "Multimodal RAG and Retrieval": 10,
     "Query Optimization and Retrieval Algorithms": 11,
     "RAG Evaluation Frameworks and Platforms": 16,
@@ -1529,6 +1529,17 @@
       "status": "active",
       "primary_url": "https://github.com/FalkorDB/FalkorDB",
       "description": "FalkorDB is an open-source graph database optimized for low-latency graph queries, with vector indexes, GraphRAG tooling, and commercial cloud and enterprise options.",
+      "secondary_links": []
+    },
+    {
+      "id": "graph-rag-and-knowledge-graph-retrieval--hydradb",
+      "name": "HydraDB",
+      "artifact_type": "tool",
+      "category": "Graph RAG and Knowledge-Graph Retrieval",
+      "availability": "open-core",
+      "status": "active",
+      "primary_url": "https://github.com/hydra-db/hydradb",
+      "description": "HydraDB is a scalable graph database with a built-in retrieval pipeline that returns ranked results with graph context.",
       "secondary_links": []
     },
     {
